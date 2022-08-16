@@ -1,0 +1,27 @@
+{
+	"name": "Ultradroid",
+	"description": "Ultradroid",
+	"repository": "https://github.com/BangBnag9992/Ult",
+	"keywords": ["user","Userbot"],
+	"repository": "https://github.com/BangBnag9992/Ult",
+        "website": "https://t.me/msgsuitechat",
+        "success_url": "https://github.com/BangBnag9992/Ult/blob/master/README.md",
+	"env": {
+		"API_HASH": {
+			"description": "Get from Telegram @Botfather."
+		},
+		"API_ID": {
+			"description": "Your user id. (If you want to add more than 1 User, give IDs seperated by ',').The First user is the Admin"
+		},
+		"REDIS_PASSWORD": {
+			"description": "Create a Super Group(s) and add ID Here. Add -1 if you don't want to add a group.(If More than 1 group Give IDs seperated by ',')"
+		},
+		"REDIS_URI": {
+			"description": "Leave this if you don't know how to use it",
+			"required": false
+		},
+		"SESSION": {
+			"description": "Obtenlo desde replt"
+	},
+    	"stack": "container"
+}
